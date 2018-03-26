@@ -1,0 +1,34 @@
+@CHARSET "ISO-8859-1";
+
+.page-content {
+	border-style: groove;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	color: #a92f2f;
+	padding: 20px;
+}
+
+.part {
+	border-style: groove;
+	padding: 30px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	color: #a92f2f;
+}
+
+table, th, td {
+	border: 1px solid grey;
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+table tr:nth-child(odd) {
+	background-color: #f1f1f1;
+}
+
+table tr:nth-child(even) {
+	background-color: #ffffff;
+}
